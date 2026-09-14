@@ -33,6 +33,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           Skip to content
         </a>
         <main id="main-content">{children}</main>
+        <footer className="py-4 text-center text-xs" style={{ color: "var(--text-muted)" }}>
+          Made by Ziad Hany
+        </footer>
       </body>
     </html>
   );
